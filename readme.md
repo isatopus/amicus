@@ -48,9 +48,10 @@
 
 ## Como usar o modelo?
 
-### Requisitos mínimos: Computador ou servidor com GPU com pelo menos 14GGB de VRAM. Há plataformas que possibilitam o uso de GPUS gratuitamente, como o Google Colab, Amazon Sagemaker e Kraggle.
+### Requisitos mínimos: Computador ou servidor com GPU com pelo menos 14GB de VRAM. Há plataformas que possibilitam o uso de GPUS gratuitamente, como o Google Collab, Amazon Sagemaker e Kraggle.
 
 Abaixo há um exemplo de código em python para o uso do modelo.
+No arquivo [deploy](deploy.ipynb) há uma implementação de um chatbot usado o modelo com a biblioteca Gradio.
 
 ```py {"id":"01HYP5QV4QXWMHPKHBF50XHJ8A"}
 import torch
