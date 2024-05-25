@@ -69,7 +69,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_id)
 hearing = "Réu: confirmo. No dia do ocorrido eu estava na rua 12 quando vi a vítima com a bolsa. Estava em uma bicicleta, passei e levei a bolsa"
 
 messages = [
-    {"role": "user", "content": "Resuma a audiência a seguir::" hearing"},
+    {"role": "user", "content": "Resuma a audiência a seguir::" hearing},
 ]
 
 pipe = pipeline(
